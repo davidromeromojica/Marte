@@ -5,6 +5,9 @@
  */
 package co.edu.unbosque.marte.test;
 
+import co.edu.unbosque.marte.LeerDoc;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import org.testng.annotations.Test;
 
 /**
@@ -12,6 +15,11 @@ import org.testng.annotations.Test;
  * @author Andres
  */
 public class ExplordorTest {
+    
+        @Test
+    public void noexiste() throws FileNotFoundException, IOException{
+        LeerDoc leer = new LeerDoc("C:/Users/Andres/Desktop/exploradore.txt");        
+    }
     
    
     

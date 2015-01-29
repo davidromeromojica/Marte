@@ -21,6 +21,11 @@ public class ExplordorTest {
         LeerDoc leer = new LeerDoc("C:/Users/Andres/Desktop/exploradore.txt");        
     }
     
+        @Test
+    public void existe() throws FileNotFoundException, IOException{
+        LeerDoc leer = new LeerDoc("C:/Users/Andres/Desktop/exploradores.txt");        
+    } 
+    
    
     
 }
